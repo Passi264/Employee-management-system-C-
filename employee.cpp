@@ -502,7 +502,7 @@ int main()
 {
     system("cls");
     system("color f4"); 
-    system("Title Employeees Managment System by hritikgupta ");
+    system("Title Employeees Managment System by prateek passi ");
     bool check = true;
     int search;
     int size,choice,a,salaryd;
@@ -517,7 +517,7 @@ int main()
         cout<<"enter the password :";
         cin>>ch;
         cout<<"\n";
-        if(ch!="hritik")
+        if(ch!="Admin")
         {cout<<"password is wrong enter again\n";
         goto label2;
         }
